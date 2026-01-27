@@ -1,3 +1,10 @@
+debchange (2.26.5) unstable; urgency=medium
+
+  * d/control: pkg-config => pkgconf
+  * Import changes from devscripts 2.26.5
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 27 Jan 2026 10:25:25 -0500
+
 debchange (2.23.7) unstable; urgency=medium
 
   * Bump version to match devscripts (no changes).
