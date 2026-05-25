@@ -1,3 +1,10 @@
+debchange (2.26.9) unstable; urgency=medium
+
+  * Use dh scripts instead of Makefile
+  * Import changes from devscripts 2.26.9
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sun, 24 May 2026 23:46:10 -0400
+
 debchange (2.26.5) unstable; urgency=medium
 
   * d/control: pkg-config => pkgconf
