@@ -1,0 +1,3 @@
+/usr/bin/debchange /usr/bin/dch
+/usr/share/man/man1/debchange.1 /usr/share/man/man1/dch.1
+/usr/share/bash-completion/completions/debchange /usr/share/bash-completion/completions/dch

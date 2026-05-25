@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+
+lib/Devscripts usr/share/perl5/
+scripts/debchange.pl => usr/bin/debchange
+scripts/debchange.bash_completion => usr/share/bash-completion/completions/debchange
