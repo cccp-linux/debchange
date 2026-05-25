@@ -155,7 +155,7 @@ Options:
   -s, --security
          Increment the Debian release number for a Debian Security Team upload
   --lts
-         Increment the Debian release number for a LTS Security Team upload
+         Increment the Debian release number for a LTS Team upload
   --team
          Increment the Debian release number for a team upload
   -U, --upstream
@@ -1524,7 +1524,7 @@ if ((
             }
             $line = 1;
         } elsif ($opt_lts && !$opt_news) {
-            print O "  * Non-maintainer upload by the LTS Security Team.\n";
+            print O "  * Non-maintainer upload by the LTS Team.\n";
             $line = 1;
         } elsif ($opt_team && !$opt_news) {
             print O "  * Team upload.\n";
